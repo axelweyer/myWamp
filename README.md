@@ -7,10 +7,10 @@ myWamp is a design homepage for your localhost page
 
 ## Screenshot
 ###### Image
-![myWamp screenshot](http://img15.hostingpics.net/pics/480017screenshot.png"myWamp screenshot")
+![myWamp screenshot](http://img15.hostingpics.net/pics/480017screenshot.png)
 
 ###### Gif
-![myWamp screenshot gif](http://img15.hostingpics.net/pics/224440screenshot.gif"myWamp screenshot gif")
+![myWamp screenshot gif](http://img15.hostingpics.net/pics/224440screenshot.gif)
 
 ## Special thanks
 With the help of
