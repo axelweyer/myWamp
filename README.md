@@ -7,10 +7,10 @@ myWamp is a design homepage for your localhost page
 
 ## Screenshot
 ###### Image
-![myWamp screenshot](https://raw.githubusercontent.com/axelweyer/myWamp/master/screenshot.png"myWamp screenshot")
+![myWamp screenshot](http://img15.hostingpics.net/pics/480017screenshot.png"myWamp screenshot")
 
 ###### Gif
-![myWamp screenshot gif](https://raw.githubusercontent.com/axelweyer/myWamp/master/screenshot.gif"myWamp screenshot gif")
+![myWamp screenshot gif](http://img15.hostingpics.net/pics/224440screenshot.gif"myWamp screenshot gif")
 
 ## Special thanks
 With the help of
@@ -18,5 +18,5 @@ With the help of
 ###### OmarBerrayti : [GitHub Win8Wamp page](https://github.com/OmarBerrayti/Win8Wamp)
 Go visit their page ! :+1:
 
-###### Author
+## Author
 > HOMEPAGE WAMP by Axel Weyer - 2016
