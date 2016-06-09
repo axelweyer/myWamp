@@ -1,0 +1,268 @@
+/*!
+ * Start Bootstrap - Portfolio Item HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+html::-webkit-scrollbar-track
+{
+	background-color: #000;
+	/*border-radius:10px;*/
+}
+
+html::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #62bf21;
+	border-radius:10px;
+}
+
+html::-webkit-scrollbar-thumb
+{
+	background-color: #62bf21;
+	/*border-radius:10px;*/
+}
+
+
+a {
+	color: #aaa;
+	text-decoration: none;
+	transition: all .1s;
+}
+a:hover {
+	color: #62bf21;
+	text-decoration: none;
+}
+
+
+body {
+	padding-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background:#000;
+}
+
+.portfolio-item {
+	margin-bottom: 25px;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+#img{
+	height:30px;
+	margin:15px 0 0 10px;
+}
+
+#img:hover{
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s easet;
+}
+
+.nav{
+	float:right;
+}
+
+#active{
+	background:#1a1a1a;
+	color:#eee;
+}
+#active:hover{
+	border-bottom:3px #62bf21 solid;
+	color:#62bf21;
+	margin-bottom:-3px;
+}
+
+
+
+
+
+/** * Projects rules **/
+.projects .project {
+	border: 3px solid #bbb;/*#2D89EF;*/
+	width: 200px;
+	height: 130px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	margin: 0 10px 10px 0;
+	padding: 0 10px 10px 0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s easet;
+}
+
+.projects .project:after{
+	width: 0;
+	height: 0;
+	border-top: 30px solid #bbb;
+	border-left: 30px solid #bbb;
+	position: absolute;
+	display: block;
+	right: 0;
+	content: "";
+	top: 0;
+	border-bottom-left-radius: 5px;
+}
+
+.projects .project:hover{
+	border-color: #62bf21;
+	background:#62bf21;
+	-webkit-transform: rotate(3deg) scale(1.1, 1.1);
+	-moz-transform: rotate(3deg) scale(1.1, 1.1);
+	-o-transform: rotate(3deg) scale(1.1, 1.1);
+	-ms-transform: rotate(3deg) scale(1.1, 1.1);
+	transform: rotate(3deg) scale(1.1, 1.1);
+}
+
+.projects .project:hover:after{
+	border-top-color: #62bf21;
+	background:#62bf21;
+	border-top: 30px solid #62bf21;
+	border-left: 30px solid #62bf21;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s easet;
+}
+
+.projects .project .favicon{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 999;
+}
+
+.projects .project .favicon img{
+	width: 30px;
+	height: 30px;
+	border-bottom-left-radius: 5px;
+}
+
+.projects .project .overlay{
+	position: absolute;
+	width: 200px;
+	height: 30px;
+	overflow: hidden;
+	background-color: rgba(26, 26, 26, 0.9);
+	font-size: 8pt;
+	text-align: left;
+	line-height: 12px;
+	padding: 0px 10px;
+	bottom: -55px;
+}
+
+.projects .project .overlay h1{
+	font-size: 15px;
+	line-height: 20px;
+	margin-top: 7px;
+}
+
+.projects .project:hover .overlay{
+	-webkit-transform: translate(0, -55px);
+	-ms-transform: translate(0, -55px);
+	-o-transform: translate(0, -55px);
+	-moz-transform: translate(0, -55px);
+	transform: translate(0, -55px);
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s easet;
+}
+
+
+
+
+
+
+
+
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#head ul li,dl ul li,#foot li {
+	list-style: none;
+	display: inline;
+	margin: 0;
+	padding: 0 0.2em;
+	color:#aaa;
+}
+ul.aliases,ul.projects,ul.tools {
+	list-style: none;
+	line-height: 24px;
+}
+ul.tools a {
+	background: url(index.php?img=pngWrench) 0 100% no-repeat;
+	padding-left: 22px;
+}
+ul.aliases a {
+	background: url(index.php?img=pngFolderGo) 0 100% no-repeat;
+	padding-left: 22px;
+}
+dl {
+	margin: 0;
+	padding: 0;
+	color:#ccc;
+}
+dt {
+	font-weight: bold;
+	text-align: right;
+	width: 11.5em;
+	clear: both;
+}
+dd {
+	margin: -1.35em 0 0 12em;
+	padding-bottom: 0.4em;
+	overflow: auto;
+}
+dd ul li {
+	float: left;
+	display: block;
+	width: 16.5%;
+	margin: 0;
+	padding: 0 0 0 20px;
+	background: url(index.php?img=pngPlugin) 2px 50% no-repeat;
+	line-height: 1.6;
+}
+#btn_switch_status {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 1em 0 0;
+}
+#btn_switch_status a {
+	display: inline-block;
+	width: 44%;
+	margin: 0 3%;
+	padding: 3px 0;
+	float: left;
+	color: #555;
+	background: #aaa;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+#btn_switch_status a:hover {
+	background: #FFF;
+	text-decoration: none;
+}
+
+.navlink:hover,
+.navlink:focus {
+  margin-bottom:-3px;
+  border-bottom:3px white solid;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
